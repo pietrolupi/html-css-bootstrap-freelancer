@@ -19,11 +19,14 @@
   border: 1px solid black;
   background-color: cadetblue;
   height: 300px;
+  width: 100%;
   border-radius: 30px;
-  
   
 }
 
+.green-background {
+  background-color: #1abc9c;
+}
 
 header {
   height: 90px;
@@ -31,7 +34,6 @@ header {
 }
 
 .jumbotron {
-  background-color: #1abc9c;
   height: 500px;
 }
 
@@ -46,6 +48,21 @@ header {
   width: 40%;
 }
 
+ul {
+  list-style: none;
+  color: white;
+}
+
+.container_m {
+  max-width: 330px;
+  width: 90%;
+}
+
+.long_line {
+  border-bottom: 2px solid black;
+  width: 100%;
+  
+}
 
 
 
@@ -53,6 +70,22 @@ header {
 
   .container_s {
     max-width: 620px ;
+  }
+
+  .container_m {
+    max-width: 700px;
+    width: 90%;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+
+
+  .container_m {
+    max-width: 980px;
+    width: 90%;
   }
 
 }
