@@ -21,6 +21,7 @@
   height: 300px;
   border-radius: 30px;
   
+  
 }
 
 
@@ -39,9 +40,6 @@ header {
   max-width: 450px ;
 }
 
-.portfolio {
-  height: 1000px;
-}
 
 .star_line {
   border-bottom: 5px solid black;
