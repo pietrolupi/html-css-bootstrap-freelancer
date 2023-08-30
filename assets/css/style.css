@@ -148,24 +148,75 @@ ul {
 .about p {
   font-size: 1.2rem;
 }
+.btn-custom {
+  background-color: #1abc9c ;
+  border-color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
 
 /* SECTION4 (CONTACT) */
 
 .contact {
   color: #2c3e50;
 }
+.contact h2 {
+  font-weight: 600;
+}
 
+.custom-form {
+  border: 1px solid #2c3e50;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  padding-left: 0;
+  padding-bottom: 15px;
+}
+
+.custom-form::placeholder {
+  color: black;
+  font-size: 1.2rem;
+}
+
+/* SECTION5 (LOCATION) */
+.location {
+  color: white;
+}
+.location h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.location p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.logo-circle {
+  font-size: 1.2rem;
+  margin: 0 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.location span {
+  color: #1abc9c;
+}
+
+.location .row .col-12:nth-child(2) {
+  margin: 30px 0 50px 0;
+}
+
+/* FOOTER */
 footer {
   background-color: #2c3e50;
   color: white;
-}
-
-.about .btn-custom {
-  background-color: #1abc9c ;
-  border-color: white;
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: 8px;
+  padding: 30px 0 50px 0;
 }
 
 /* MEDIUM------------------ */
@@ -206,6 +257,14 @@ footer {
   }
   .about .btn-custom {
     margin-bottom: 30px ;
+  }
+
+  .contact h2 {
+    font-size: 3.2rem;
+  }
+
+  .location .row .col-12:nth-child(2) {
+    margin: 0;
   }
 
 
