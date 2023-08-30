@@ -15,10 +15,9 @@
   background-color: green;
 }
 
-.debug-card {
-  border: 1px solid black;
-  background-color: cadetblue;
-  height: 300px;
+.custom-card {
+ 
+  overflow: hidden;
   width: 100%;
   border-radius: 30px;
   
@@ -33,8 +32,11 @@ header {
   background-color: #2c3e50;
 }
 
-.jumbotron {
-  height: 500px;
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
 }
 
 .container_s {
@@ -66,6 +68,42 @@ ul {
 
 .location {
   background-color: #3a546d;
+}
+
+
+
+/* SECTION1 (JUMBOTRON) */
+.jumbotron {
+  color: white;
+}
+.jumbotron a {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.jumbotron h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+
+/* SECTION2 */
+
+.mask {
+  background-color: rgba(0, 0, 0, 0.379);
+  color: white;
+  font-size: 5rem;
+  display: none;
+}
+
+.mask i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.custom-card:hover .mask {
+  display: block;
 }
 
 footer {
